@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background-image: url(STARS.gif);
+  background-image: url("./assets/STARS.gif");
   color: white;
   padding: 20px;
 }
@@ -45,6 +45,10 @@ body {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+}
+
+.footer-images {
+  margin: 20px;
 }
 
 .marquee {
@@ -118,6 +122,41 @@ body {
   100% {
     left: -100%;
   }
+}
+
+/* Bands in town widget */
+
+.bit-html-export {
+  width: 100%;
+  background: #fff;
+  font-family: Arial;
+  color: black;
+  font-size: 12px;
+}
+.bit-table {
+  width: 100%;
+}
+.bit-table td {
+  padding: 7px 10px;
+  vertical-align: middle;
+}
+
+.bit-table a {
+  color: #00b4b3;
+  text-decoration: none;
+}
+
+/* alternate row background color */
+.bit-table tr:nth-of-type(2n) {
+  background: #eee;
+}
+
+/* separate line between rows */
+/* .bit-table tr td { border-bottom: 1px solid #ccc } */
+
+.bit-table .bit-cta {
+  text-align: center;
+  width: 25%;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
