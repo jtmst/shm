@@ -49,6 +49,9 @@ body {
 
 .footer-images {
   margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .marquee {
