@@ -111,6 +111,7 @@ body {
   width: 100%;
   overflow: hidden;
   transform: rotate(4deg) scaleX(1);
+  margin-bottom: 5rem;
 }
 
 iframe {
@@ -127,45 +128,6 @@ iframe {
 .lol {
   position: absolute;
   top: 0;
-}
-
-// bands in town widget
-
-.bit-html-export {
-  width: 100%;
-  background: #fff;
-  font-family: Arial;
-  color: black;
-  font-size: 12px;
-}
-.bit-table {
-  width: 100%;
-  margin-top: 5rem;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.bit-table td {
-  padding: 7px 10px;
-  vertical-align: middle;
-}
-
-.bit-table a {
-  color: #00b4b3;
-  text-decoration: none;
-}
-
-/* alternate row background color */
-.bit-table tr:nth-of-type(2n) {
-  background: #1d1d1d;
-}
-
-/* separate line between rows */
-/* .bit-table tr td { border-bottom: 1px solid #ccc } */
-
-.bit-table .bit-cta {
-  text-align: center;
-  width: 25%;
 }
 
 @keyframes marquee {
